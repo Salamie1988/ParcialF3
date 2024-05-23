@@ -1,15 +1,14 @@
-import Card from "./Card";
+import React from "react";
+import FormData from "./Components/Form";
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+    <div>
+      <h1/>
+      <FormData />
     </div>
   );
-}
-
+};
 
 export default App;
